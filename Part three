@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <script>
+            document.write("The sum is ",sum())
+            function sum()
+            {
+
+                var sum=0;
+                for(var i=0;i<=100;i++)
+                {
+                    sum+=i
+                }
+                return sum;
+            }
+        </script>
+    </body>
+</html>
