@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="mytext">This is my first text</p>
+        <script>
+            document.getElementById("mytext").textContent="This is my second text";
+            var element=document.createElement('h1');
+            element.textContent='Heading'
+            document.body.appendChild(element)
+        </script>
+    </body>
+</html>
